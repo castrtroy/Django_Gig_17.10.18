@@ -1,7 +1,7 @@
 from django.urls import path
 
 from main.views import (
-    main, contact, about, fashion, model, blogsingle
+    main, contact, about, fashion, model, blogsingle, travel
 )
 
 
