@@ -1,14 +1,17 @@
 from django.urls import path
 
 from main.views import (
-    main, contacts, about, page1
+    main, contact, about, fashion, model, blogsingle
 )
 
 
 urlpatterns = [
-    path('contacts/', contacts),
+    path('contact/', contact),
     path('about/', about),
-    path('page1/', page1),
+    path('blogsingle/', blogsingle),
+    path('fashion/', fashion),
+    path('model/', model),
+    path('travel/', travel),
     path('', main),
     
 ]
